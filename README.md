@@ -16,4 +16,5 @@ There is an extra column that is unknown or not in the DB schema given. There ar
 - The retual price data reveals the prices at which these products are sold to customers. The minimum retail price is \$0.00, indicating the possibility of free products, while the maximum retail price is \$6,017.00, showing a broad range of price points.
 
 **Concerns**: columns cost and retails have \$0.
-There could be some correspondences between skstinfo.csv's retails column and trnsact.csv's ORGPRICE column according to the SKU and STORE number. If we encountered missing values on both sides, we could replace the NA data accordingly.
+
+**Solutions**: There could be some correspondences between skstinfo.csv's retails column and trnsact.csv's ORGPRICE column according to the SKU and STORE number. If we encountered missing values on both sides, we could replace the NA data accordingly.
