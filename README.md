@@ -11,7 +11,7 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
     + **deptinfo.csv and strinfo.csv Analysis**
     + **skstinfo.csv Analysis**
       
-      There is an extra column that is unknown or not in the DB schema given. There are 39230145 oberservations/rows and there are 5 columns (SKU, STORE, COST, RETAIL, UNKOWN)
+      There is an extra column that is unknown or not in the DB schema given. There are 39,230,145 observations with 5 columns (SKU, STORE, COST, RETAIL, UNKOWN)
 
       - SKU data reveals that there is a wide range of products represented. With SKUs ranging from 3 to 10 million, this suggests a diverse product catalog.
       - The store data provided information about where these products are sold, with store IDs ranging from 100 to 9909, which implies that the products are distributed across a large number of stores.
