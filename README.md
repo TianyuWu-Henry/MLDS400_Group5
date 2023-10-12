@@ -8,8 +8,8 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
 #### Updates:
 * Used pgcli/psql to connect to the MLDS’s postgres DB server successfully, and imported two CSV files (deptinfo and strinfo) into databases via pgadmin4.
 * Got a general feeling of the five CSV files through looking into the schema and starting to analyze them in R.
-    + **deptinfo.csv and strinfo.csv Analysis**
-    + **skstinfo.csv Analysis**
+    + **deptinfo.csv and strinfo.csv Exploration**
+    + **skstinfo.csv Exploration**
       
       There is an extra column that is unknown or not in the DB schema given. There are 39,230,145 observations with 5 columns (SKU, STORE, COST, RETAIL, UNKOWN)
 
@@ -23,7 +23,7 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
         **Solutions**: There could be some correspondences between skstinfo.csv's retails column and trnsact.csv's ORGPRICE column according to the SKU and STORE number. If we encountered missing values on both sides, we could replace the NA data accordingly.
 
 
-    + **trnsact.csv Analysis**
+    + **trnsact.csv Exploration**
 
 
 #### To-Do-Lists:
