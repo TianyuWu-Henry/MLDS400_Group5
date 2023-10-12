@@ -27,4 +27,4 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
 
 #### To-Do-Lists:
 - Create tables in Postgres according to the provided database schema and grant access to everyone in the team.
-- 
+- Discuss one or several ML questions that we are interested according to the data provided.
