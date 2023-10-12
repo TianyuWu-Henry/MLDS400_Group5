@@ -6,7 +6,7 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
 ## Weekly Updates and To-Do-Lists:
 ### Oct 13th 2023:
 #### Updates:
-* Used pgcli/psql to connect to the MLDS’s Postgres DB server, downloaded pgAdmin, and imported two CSV files (deptinfo and strinfo) into the database via pgadmin4.
+* Used pgcli/psql to connect to the MLDS’s Postgres DB server, downloaded pgAdmin, and imported two CSV files (deptinfo and strinfo) into the database via pgAdmin.
 * Got a general feeling of the five CSV files by looking into the schema and starting to analyze them in R.
     + **deptinfo.csv and strinfo.csv Exploration**
     + **skstinfo.csv Exploration**
