@@ -9,13 +9,10 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
 * Used pgcli/psql to connect to the MLDS’s Postgres DB server, downloaded pgAdmin, and imported two CSV files (deptinfo and strinfo) into the database via pgAdmin.
 * Got a general feeling of the five CSV files by looking into the schema and starting to analyze them in R.
     + **deptinfo.csv and strinfo.csv Exploration**
-      The data frame for department info. does not appear to have any meaningful information except that it
-    notes some of the dedicated account teams that operate within Dillards. For now, it suffices to say that the
-    department info data frame consists of 60 rows and 2 columns.
-    For store info, we see much more interesting insights. The R Markdown tables in our main folder show us the frequency of each
-city, state and zip code. Little Rock, AK has the largest number of stores with 15 and zip code 72201 has
-the most number of stores with 14. A bar chart also shows us that Texas is by far the most populous state
-in terms of store frequency.
+      
+      The data frame for department info. does not appear to have any meaningful information except that it notes some of the dedicated account teams that operate within Dillards. For now, it suffices to say that the department info data frame consists of 60 rows and 2 columns.
+
+      For store info, we see much more interesting insights. The R Markdown tables in our main folder show us the frequency of each city, state and zip code. Little Rock, AK has the largest number of stores with 15 and zip code 72201 has the most number of stores with 14. A bar chart also shows us that Texas is by far the most populous state in terms of store frequency.
  
     + **skuinfo.csv Exploration**
         DATA NEEDED TO BE CLEANED:
@@ -24,7 +21,8 @@ in terms of store frequency.
         - For the STYLE column, the input is unformatted, since there are some spaces in-between letters or the lengths of them are different. The inputs are hard to interpret without standardization and do not follow any regulated style.
         - For the COLOR column, some inputs are correct with clear color stated, while other inputs mix spaces, letters, and numbers together to confuse. 
         - For the SIZE column, there is also no standardized chart to format (e.g XS/S/M/L) but more like ‘090M’ and ‘ALL’ which are confusing. 
-        - We drop the last meaningless undefined column (with entries 0 and 1) when reading the data. 
+        - We drop the last meaningless undefined column (with entries 0 and 1) when reading the data.
+          
     + **skstinfo.csv Exploration**
       
       There is an extra column that is unknown or not in the DB schema given. There are 39,230,145 observations with 5 columns (SKU, STORE, COST, RETAIL, UNKNOWN)
