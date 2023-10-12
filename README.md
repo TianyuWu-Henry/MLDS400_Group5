@@ -6,28 +6,26 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
 ## Weekly Updates and To-Do-Lists:
 ### Oct 13th 2023:
 #### Updates:
-* Used pgcli/psql to connect to the MLDS’s postgres DB server successfully, and imported two CSV files (deptinfo and strinfo) into databases via pgadmin4.
-* Got a general feeling of the five CSV files through looking into the schema and starting to analyze them in R.
+* Used pgcli/psql to connect to the MLDS’s Postgres DB server successfully, and imported two CSV files (deptinfo and strinfo) into the database via pgadmin4.
+* Got a general feeling of the five CSV files by looking into the schema and starting to analyze them in R.
     + **deptinfo.csv and strinfo.csv Exploration**
-  The data frame for department info. does not appear to have any meaningful information except that it notes some of the dedicated account teams that operate within Dillards. For now, it suffices to say that     the department info data frame consists of 60 rows and 2 columns.
-    For store info, we see much more interesting insights. The tables in our RMD file show us the frequency of each city, state and zip code. Little Rock, AK has the largest number of stores with 15 and zip code 72201     has the most number of stores with 14. A bar chart also shows us that Texas is by far the most populous state in terms of store frequency. 
     + **skstinfo.csv Exploration**
       
-      There is an extra column that is unknown or not in the DB schema given. There are 39,230,145 observations with 5 columns (SKU, STORE, COST, RETAIL, UNKOWN)
+      There is an extra column that is unknown or not in the DB schema given. There are 39,230,145 observations with 5 columns (SKU, STORE, COST, RETAIL, UNKNOWN)
 
       - SKU data reveals that there is a wide range of products represented. With SKUs ranging from 3 to 10 million, this suggests a diverse product catalog.
       - The store data provided information about where these products are sold, with store IDs ranging from 100 to 9909, which implies that the products are distributed across a large number of stores.
-      - The cost data shows the cost associated with each SKU. The minimum cost is \$0, indicating that some products does not have cost, while the maximum cost if \$2700.00, which suggests an signicant cost   variation among the products.
-      - The retual price data reveals the prices at which these products are sold to customers. The minimum retail price is \$0.00, indicating the possibility of free products, while the maximum retail price is \$6,017.00, showing a broad range of price points.
+      - The cost data shows the cost associated with each SKU. The minimum cost is \$0, indicating that some products do not have cost, while the maximum cost is \$2700.00, which suggests a significant cost  variation among the products.
+      - The actual price data reveals the prices at which these products are sold to customers. The minimum retail price is \$0.00, indicating the possibility of free products, while the maximum retail price is \$6,017.00, showing a broad range of price points.
 
         **Concerns**: columns cost and retails have \$0.
 
-        **Solutions**: There could be some correspondences between skstinfo.csv's retails column and trnsact.csv's ORGPRICE column according to the SKU and STORE number. If we encountered missing values on both sides, we could replace the NA data accordingly.
+        **Solutions**: There could be some correspondences between skstinfo.csv's retails column and trnsact.csv's ORGPRICE column according to the SKU and STORE number. If we encountered missing values on both sides, we could replace the null data accordingly.
 
 
     + **trnsact.csv Exploration**
-
-
+      Since we have not imported this CSV file into the database via pgadmin4, we head to import the first 100,000 observations in R to get a general feeling of this dataset due to its large volume (~11.37 GB). There are 13 effective columns of information except the one specified with the "Unknown" column. We found out that the column **"AMT"** is derived from the multiplication of **"QUANTITY"** and **"SPRICE"**, and as suggested before, the null values in the **"SPRICE"** and **"ORGPRICE"** columns can be filled according to the values stored in the skstinfo.csv file. Besides that, we do have a question about the actual meaning of **"TRANNUM"**, as we find that, there is more than one observation stored in the trnsact.csv data for the same **"TRANNUM"** number but with different sale dates and stores. From our understanding, this code should specify a serial number that is uniquely identified for each purchasing behavior, but different sale dates and stores for the same **"TRANNUM"** make us a bit confused.
+      
 #### To-Do-Lists:
 - Create tables in Postgres according to the provided database schema and grant access to everyone in the team.
-- Discuss one or several ML questions that we are interested according to the data provided.
+- Discuss one or several ML questions that we are interested in according to the data provided.
