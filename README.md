@@ -6,8 +6,8 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
 ## Weekly Updates and To-Do-Lists:
 ### Oct 13th 2023:
 #### Updates:
-* Use pgcli/psql to connect to the MLDS’s postgres DB server successfully
-* Get a general feeling of the five csv files through looking into the schema and starting to analyze them in R
+* Used pgcli/psql to connect to the MLDS’s postgres DB server successfully, and imported two CSV files (deptinfo and strinfo) into databases via pgadmin4.
+* Got a general feeling of the five CSV files through looking into the schema and starting to analyze them in R.
     + **skstinfo.csv Analysis**
       
       There is an extra column that is unknown or not in the DB schema given. There are 39230145 oberservations/rows and there are 5 columns (SKU, STORE, COST, RETAIL, UNKOWN)
