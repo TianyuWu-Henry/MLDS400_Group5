@@ -10,9 +10,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-
-INCLUDE LIST OF WHAT WE DID, AND TIMELINE PER OLD GITHUB
-
 So far, we have all each individually connected to the SQL server which contains the database for this project. We are still having some trouble accessing the data but we can figure this out later.
 
 To begin, we loaded out data into R.
