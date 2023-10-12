@@ -8,6 +8,7 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
 #### Updates:
 * Used pgcli/psql to connect to the MLDS’s postgres DB server successfully, and imported two CSV files (deptinfo and strinfo) into databases via pgadmin4.
 * Got a general feeling of the five CSV files through looking into the schema and starting to analyze them in R.
+    + **deptinfo.csv and strinfo.csv Analysis**
     + **skstinfo.csv Analysis**
       
       There is an extra column that is unknown or not in the DB schema given. There are 39230145 oberservations/rows and there are 5 columns (SKU, STORE, COST, RETAIL, UNKOWN)
