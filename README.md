@@ -1,12 +1,14 @@
 # MLDS400_Group5
-This is the repo for Group 5's submission of MLDS 400's team project.
+This is the repo for recording Group 5's process of MLDS 400's team project.
 
-## Weekly Updates:
-### Until Oct 13th 2023
+Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
+
+## Weekly Updates and To-Do-Lists:
+### Oct 13th 2023:
+#### Updates:
 
 
-
-#### skstinfo.csv Analysis
+##### skstinfo.csv Analysis
 
 There is an extra column that is unknown or not in the DB schema given. There are 39230145 oberservations/rows and there are 5 columns (SKU, STORE, COST, RETAIL, UNKOWN)
 
@@ -18,3 +20,7 @@ There is an extra column that is unknown or not in the DB schema given. There ar
 **Concerns**: columns cost and retails have \$0.
 
 **Solutions**: There could be some correspondences between skstinfo.csv's retails column and trnsact.csv's ORGPRICE column according to the SKU and STORE number. If we encountered missing values on both sides, we could replace the NA data accordingly.
+
+
+#### To-Do-Lists:
+
