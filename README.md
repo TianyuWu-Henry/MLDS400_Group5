@@ -9,10 +9,8 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
 * Used pgcli/psql to connect to the MLDS’s postgres DB server successfully, and imported two CSV files (deptinfo and strinfo) into databases via pgadmin4.
 * Got a general feeling of the five CSV files through looking into the schema and starting to analyze them in R.
     + **deptinfo.csv and strinfo.csv Exploration**
-  The data frame for department info. does not appear to have any meaningful information except that it notes some of the dedicated account teams that operate within Dillards. For now, it suffices to say that the department info data frame consists of 60 rows and 2 columns.
-
-
-For store info, we see much more interesting insights. The following tables show us the frequency of each city, state and zip code. Little Rock, AK has the largest number of stores with 15 and zip code 72201 has the most number of stores with 14. A bar chart also shows us that Texas is by far the most populous state in terms of store frequency. 
+  The data frame for department info. does not appear to have any meaningful information except that it notes some of the dedicated account teams that operate within Dillards. For now, it suffices to say that     the department info data frame consists of 60 rows and 2 columns.
+    For store info, we see much more interesting insights. The following tables show us the frequency of each city, state and zip code. Little Rock, AK has the largest number of stores with 15 and zip code 72201     has the most number of stores with 14. A bar chart also shows us that Texas is by far the most populous state in terms of store frequency. 
     + **skstinfo.csv Exploration**
       
       There is an extra column that is unknown or not in the DB schema given. There are 39,230,145 observations with 5 columns (SKU, STORE, COST, RETAIL, UNKOWN)
