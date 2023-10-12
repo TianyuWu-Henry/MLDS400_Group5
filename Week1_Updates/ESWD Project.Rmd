@@ -1,0 +1,64 @@
+---
+title: "ESWD Project"
+author: "Omar Shatrat"
+date: "2023-10-10"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+INCLUDE LIST OF WHAT WE DID, AND TIMELINE PER OLD GITHUB
+
+So far, we have all each individually connected to the SQL server which contains the database for this project. We are still having some trouble accessing the data but we can figure this out later.
+
+To begin, we loaded out data into R.
+
+
+```{r}
+
+setwd("C:/Users/Omar Shatrat/Documents/ESWD HW/Dillards POS")
+dept_info <- read.csv('deptinfo.csv', header = FALSE)
+str_info <- read.csv('strinfo.csv', header = FALSE)
+dept_info <- dept_info[,1:2]
+str_info <- str_info[, 1:4]
+colnames(dept_info) <- c('Dept', "Dept_Desc.")
+colnames(str_info) <- c("Store", "City", "State", "Zip")
+
+
+```
+
+
+The data frame for department info. does not appear to have any meaningful information except that it notes some of the dedicated account teams that operate within Dillards. For now, it suffices to say that the department info data frame consists of 60 rows and 2 columns.
+
+
+For store info, we see much more interesting insights. The following tables show us the frequency of each city, state and zip code. Little Rock, AK has the largest number of stores with 15 and zip code 72201 has the most number of stores with 14. A bar chart also shows us that Texas is by far the most populous state in terms of store frequency. 
+
+
+```{r}
+
+head(dept_info)
+dim(dept_info)
+
+
+
+head(str_info)
+
+state_table <- data.frame(table(str_info$State))
+barplot(table(str_info$State), las = 2, cex.names = 1)
+
+city_table <- table(str_info$City) 
+city_table[order(city_table, decreasing = TRUE)]
+
+zip_table <- table(str_info$Zip)
+zip_table[order(zip_table, decreasing = TRUE)]
+
+
+
+```
+
+
+
