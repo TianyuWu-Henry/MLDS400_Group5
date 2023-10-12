@@ -31,5 +31,7 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
       Since we have not imported this CSV file into the database via pgadmin4, we head to import the first 100,000 observations in R to get a general feeling of this dataset due to its large volume (~11.37 GB). There are 13 effective columns of information except the one specified with the "Unknown" column. We found out that the column **"AMT"** is derived from the multiplication of **"QUANTITY"** and **"SPRICE"**, and as suggested before, the null values in the **"SPRICE"** and **"ORGPRICE"** columns can be filled according to the values stored in the skstinfo.csv file. Besides that, we do have a question about the actual meaning of **"TRANNUM"**, as we find that, there is more than one observation stored in the trnsact.csv data for the same **"TRANNUM"** number but with different sale dates and stores. From our understanding, this code should specify a serial number that is uniquely identified for each purchasing behavior, but different sale dates and stores for the same **"TRANNUM"** make us a bit confused.
       
 #### To-Do-Lists:
-- Create tables in Postgres for the other three CSV files that are not uploaded yet, according to the provided database schema and grant access to everyone in the team.
+- Fix problems in tables skuinfo.csv using command line and/or Python and/or R and import the other three CSV files that are not uploaded into Postgres.
+- Create tables in Postgres according to the provided database schema and grant access to everyone in the team.
 - Discuss one or several ML questions that we are interested in according to the data provided.
+
