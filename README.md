@@ -11,13 +11,13 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
     + **deptinfo.csv and strinfo.csv Exploration**
  
     + **skuinfo.csv Exploration**
-* DATA NEEDED TO BE CLEANED:
-    - There is no specific title attached to each column.
-    - The DEPT(e.g 800,801,1100) and CLASSID (e.g 5305,4505) columns are ambiguous because it is hard to figure out which they belong to. Also, the third column has varying lengths, making the interpretation more complex. 
-    - For the STYLE column, the input is unformatted, since there are some spaces in-between letters or the lengths of them are different. The inputs are hard to interpret without standardization and do not follow any regulated style.
-    - For the COLOR column, some inputs are correct with clear color stated, while other inputs mix spaces, letters, and numbers together to confuse. 
-    - For the SIZE column, there is also no standardized chart to format (e.g XS/S/M/L) but more like ‘090M’ and ‘ALL’ which are confusing. 
-    - We drop the last meaningless undefined column (with entries 0 and 1) when reading the data. 
+        DATA NEEDED TO BE CLEANED:
+        - There is no specific title attached to each column.
+        - The DEPT(e.g 800,801,1100) and CLASSID (e.g 5305,4505) columns are ambiguous because it is hard to figure out which they belong to. Also, the third column has varying lengths, making the interpretation more complex. 
+        - For the STYLE column, the input is unformatted, since there are some spaces in-between letters or the lengths of them are different. The inputs are hard to interpret without standardization and do not follow any regulated style.
+        - For the COLOR column, some inputs are correct with clear color stated, while other inputs mix spaces, letters, and numbers together to confuse. 
+        - For the SIZE column, there is also no standardized chart to format (e.g XS/S/M/L) but more like ‘090M’ and ‘ALL’ which are confusing. 
+        - We drop the last meaningless undefined column (with entries 0 and 1) when reading the data. 
     + **skstinfo.csv Exploration**
       
       There is an extra column that is unknown or not in the DB schema given. There are 39,230,145 observations with 5 columns (SKU, STORE, COST, RETAIL, UNKNOWN)
