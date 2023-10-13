@@ -31,15 +31,16 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
       - The cost data shows the cost associated with each SKU. The minimum cost is \$0, indicating that some products do not have cost, while the maximum cost is \$2700.00, which suggests a significant cost  variation among the products.
       - The actual price data reveals the prices at which these products are sold to customers. The minimum retail price is \$0.00, indicating the possibility of free products, while the maximum retail price is \$6,017.00, showing a broad range of price points.
 
-      But there is also a concern with the null values specified in the cost and price columns, where we could make use of the trnsact.csv data to systematically replace the NA values (discussed in the next paragraph).
+      But there is also a concern, dealing with the null values commonly appearing in the cost and price columns, where we probably could make use of the trnsact.csv data to systematically replace the NA values (discussed in the next paragraph).
 
 
     + **trnsact.csv Exploration**
       
-      Since we have not imported this CSV file into the database via pgadmin4, we head to import the first 100,000 observations in R to get a general feeling of this dataset due to its large volume (~11.37 GB). There are 13 effective columns of information except the one specified with the "Unknown" column. We found out that the column **"AMT"** is derived from the multiplication of **"QUANTITY"** and **"SPRICE"**, and as suggested before, the null values in the **"SPRICE"** and **"ORGPRICE"** columns can be filled according to the values stored in the skstinfo.csv file. Besides that, we do have a question about the actual meaning of **"TRANNUM"**, as we find that, there is more than one observation stored in the trnsact.csv data for the same **"TRANNUM"** number but with different sale dates and stores. From our understanding, this code should specify a serial number that is uniquely identified for each purchasing behavior, but different sale dates and stores for the same **"TRANNUM"** make us a bit confused.
+      Since we have not imported this largest CSV file (~11.37 GB) into the database via pgadmin4, we head to import the first 100,000 observations in R to get a general feeling of this dataset. There are 13 effective columns of information except the one specified with the "Unknown" column. We found out that the column **"AMT"** is derived from the multiplication of **"QUANTITY"** and **"SPRICE"**, and as mentioned in the previous paragraph, the null values in the **"SPRICE"** and **"ORGPRICE"** columns can be filled according to the values stored in the skstinfo.csv file, and vice versa.
+
+      Besides that, we do have some doubts related to the actual meaning of **"TRANNUM"**, as we find that, there is more than one observation stored in the trnsact.csv data for the same **"TRANNUM"** number but with different sale dates and stores. From our understanding, this code should specify a serial number that is uniquely identified for each purchasing behavior, but different sale dates and stores for the same **"TRANNUM"** make us a bit confused. However, it is important to resolve our confusion as soon as possible, as this column could become important after determining the research question and setting out to clean data and conduct EDA.
       
 #### To-Do-Lists:
-- Fix problems in tables skuinfo.csv using command line and/or Python and/or R and import the other three CSV files that are not uploaded into Postgres.
-- Create tables in Postgres according to the provided database schema and grant access to everyone in the team.
-- Discuss one or several ML questions that we are interested in according to the data provided.
-
+- Fix the giant problems in tables skuinfo.csv using the command line and/or Python and/or R, import the other three CSV files that are not uploaded into Postgres via pgAdmin, and grant Postgres access to everyone on the team.
+- Brainstorm several ML questions that we might be interested in, by looking into the data provided in-depth.
+- Start cleaning the data (e.g. filling the null values and replacing misleading or incorrect values) and conducting EDA in a systematic way, after narrowing the discussion down to one or two specific business questions.
