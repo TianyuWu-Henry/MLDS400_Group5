@@ -4,7 +4,7 @@ This is the repo for documenting Group 5's process of MLDS 400's team project.
 Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
 
 ## Weekly Updates and To-Do-Lists:
-### Oct 13th 2023:
+### Oct 13th, 2023:
 #### Updates:
 * Used pgcli/psql to connect to the MLDS’s Postgres DB server, downloaded pgAdmin, and made a test to import two CSV files (deptinfo and strinfo) into the database via pgAdmin successfully.
 * Got a general feeling of the five CSV files by looking into the schema description and starting to analyze them in R.
@@ -45,8 +45,10 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
 - Brainstorm several ML questions that we might be interested in, by looking into the data provided in-depth.
 - Start cleaning the data (e.g. filling the null values and replacing misleading or incorrect values) and conducting EDA in a systematic way, after narrowing the discussion down to one or two specific business questions.
 
-### Oct 20, 2023:
+### Oct 20th, 2023:
 #### Updates:
+* Proposed several ML questions based on a more thorough understanding of five CSV data.
+
 + **Proposed ML Questions**
   - How does price sensitivity differ across regions, gender, and other demographics?
   - Can we forecast sales for each product category and/or each department for the coming year(s)?
