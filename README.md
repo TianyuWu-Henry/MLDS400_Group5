@@ -48,8 +48,6 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
 ### Oct 20th, 2023:
 #### Updates:
 * Proposed several ML questions based on a more thorough understanding of five CSV data.
-
-+ **Proposed ML Questions**
   - How does price sensitivity differ across regions, gender, and other demographics?
   - Can we forecast sales for each product category and/or each department for the coming year(s)?
 
