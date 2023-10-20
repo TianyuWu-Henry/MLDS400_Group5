@@ -50,6 +50,7 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
 * Proposed several ML questions based on a more thorough understanding of five CSV data.
   - How does price sensitivity differ across regions, gender, and other demographics?
   - Can we forecast sales for each product category and/or each department for the coming year(s)?
+  - Using historical sales data, can we identify optimal locations for new store openings based on factors such as city demographics and existing store performance?
 
 #### To-Do-Lists:
 - Get feedback from the TA and the instructor regarding the proposed ML questions. 
