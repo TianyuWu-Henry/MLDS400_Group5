@@ -47,8 +47,9 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
 
 ### Oct 20th, 2023:
 #### Updates:
+
 * SQL Database
-  - This week we successfully imported all datasets into Postgres through PgAdmin4.
+    + We successfully imported all datasets into Postgres through PgAdmin4.
 * Proposed several ML questions based on a more thorough understanding of five CSV data.
   - How does price sensitivity differ across regions, gender, and other demographics?
   - Can we forecast sales for each product category and/or each department for the coming year(s)?
