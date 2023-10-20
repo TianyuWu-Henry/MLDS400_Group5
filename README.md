@@ -61,5 +61,5 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
 
 
 #### To-Do-Lists:
-- Get feedback from the TA and the instructor regarding the proposed ML questions. 
-- After confirming the ML question, we are planning to use SQL to subset the original data and join tables based on columns that we need for analysis.
+- Seek input and feedback from both the Teaching Assistant (TA) and the instructor regarding the proposed machine-learning questions. Additionally, conduct comprehensive research to understand how similar challenges are addressed in the industry.
+- Upon validating the machine learning questions, continue with the data cleansing and Exploratory Data Analysis (EDA) processes, adhering to the determined research direction.
