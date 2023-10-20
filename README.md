@@ -43,7 +43,6 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
 #### To-Do-Lists:
 - Fix the giant problems in tables skuinfo.csv using the command line and/or Python and/or R, import the other three CSV files that are not uploaded into Postgres via pgAdmin, and grant Postgres access to everyone on the team.
 - Brainstorm several ML questions that we might be interested in, by looking into the data provided in-depth.
-- Start cleaning the data (e.g. filling the null values and replacing misleading or incorrect values) and conducting EDA in a systematic way, after narrowing the discussion down to one or two specific business questions.
 
 ### Oct 20th, 2023:
 #### Updates:
