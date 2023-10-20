@@ -51,6 +51,7 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
 * Commenced the data cleaning process for the 'skuinfo' table, an operation that has unearthed several noteworthy challenges:
     + Encountered unquoted string entries within columns such as 'color,' which may contain embedded commas, potentially leading to unexpected additional columns during data manipulation.
     + Observed intricacies in columns like 'style,' 'size,' 'packsize,' and others, which make their classification as categorical variables for machine learning purposes a complex task, necessitating a meticulous and time-consuming data cleansing process. This, in turn, raises questions about the feasibility of drawing substantial insights from these columns.
+
 * Presented a set of meticulously formulated machine learning inquiries, refined through an in-depth exploration of the entire CSV dataset:
   + How does consumer price sensitivity vary across distinct geographic regions, demographics, and other relevant factors?
   + Is it possible to develop accurate sales forecasts for each product category or department over the next year or beyond?
