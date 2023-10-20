@@ -47,11 +47,14 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
 
 ### Oct 20th, 2023:
 #### Updates:
+* SQL Database
+  - This week we successfully imported all datasets into Postgres through PgAdmin4.
 * Proposed several ML questions based on a more thorough understanding of five CSV data.
   - How does price sensitivity differ across regions, gender, and other demographics?
   - Can we forecast sales for each product category and/or each department for the coming year(s)?
   - Using historical sales data, can we identify optimal locations for new store openings based on factors such as city demographics and existing store performance?
+  - Product Price Recommendation (Dynamic Pricing): Pricing strategy across regions (from STRINFO) / based on years (any big events in the economy?) / based on products (from SKUINFO) or categories (from DEPTINFO) -> how to generate more sales
 
 #### To-Do-Lists:
 - Get feedback from the TA and the instructor regarding the proposed ML questions. 
-
+- After confirming the ML question, we are planning to use SQL to subset the original data and join tables based on columns that we need for analysis.
