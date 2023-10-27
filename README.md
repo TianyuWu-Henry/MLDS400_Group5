@@ -78,7 +78,7 @@ The presence of high-cost and high-retail price outliers suggests the existence 
 
 Profit Margin Insights: The profit margin, which represents the difference between retail price and cost, is a vital metric for businesses. It is calculated as (Retail Price - Cost) / Cost. We've identified the top five states with the highest profit margins: Arkansas, Oklahoma, Ohio, Texas, and Tennessee. These states not only host a significant number of stores but also maintain favorable profit margins. This observation indicates efficient cost management and effective pricing strategies in place.
     
-b. EDA for **deptinfo and skstinfo**
+b. EDA for **skuinfo**
     
 At first glance, the columns within this CSV file may appear disorganized, lacking apparent patterns. Initially, we considered dismissing it from our analysis. However, upon conducting exploratory data analysis (EDA), we discovered the potential usefulness of certain columns, particularly COLOR and SIZE, in scenarios where machine learning questions involve the analysis of these attributes. The UPC column, though unique, serves a purpose redundant to that of SKU, the primary key of this table, and thus holds no value for our analysis. As for other columns like STYLE, VENDOR, and BRAND, while histogram plots reveal some patterns, their inclusion in the analysis warrants a more cautious approach, given the limited information available regarding the specific entries they represent.
 
