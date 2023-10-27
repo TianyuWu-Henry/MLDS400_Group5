@@ -86,8 +86,8 @@ Furthermore, the possibility of merging skuinfo and deptinfo into a single dataf
 
 * Conduct preliminary research to understand how our proposed ML questions are related to some business/academic challenges that have been dealt with so far.
 
-- [Retail Pricing and Clearance Sales](https://www.nber.org/papers/w1446)
-- [US aggregate demand for clothing and shoes: effects of non-durable expenditures, price and demographic changes](https://onlinelibrary.wiley.com/doi/full/10.1046/j.1470-6431.2003.00291.x)
+1. [Retail Pricing and Clearance Sales](https://www.nber.org/papers/w1446)
+2. [US aggregate demand for clothing and shoes: effects of non-durable expenditures, price and demographic changes](https://onlinelibrary.wiley.com/doi/full/10.1046/j.1470-6431.2003.00291.x)
 
 #### To-Do-Lists:
 - Due to the tight schedule this week, we did not manage to obtain feedback from the TA regarding the proposed machine-learning questions, thus we plan to schedule a meeting between him and our whole team to discuss it thoroughly next week!
