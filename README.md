@@ -83,3 +83,12 @@ b. EDA for **deptinfo and skstinfo**
 At first glance, the columns within this CSV file may appear disorganized, lacking apparent patterns. Initially, we considered dismissing it from our analysis. However, upon conducting exploratory data analysis (EDA), we discovered the potential usefulness of certain columns, particularly COLOR and SIZE, in scenarios where machine learning questions involve the analysis of these attributes. The UPC column, though unique, serves a purpose redundant to that of SKU, the primary key of this table, and thus holds no value for our analysis. As for other columns like STYLE, VENDOR, and BRAND, while histogram plots reveal some patterns, their inclusion in the analysis warrants a more cautious approach, given the limited information available regarding the specific entries they represent.
 
 Furthermore, the possibility of merging skuinfo and deptinfo into a single dataframe based on the common SKU primary key is feasible. However, we've chosen to defer this decision due to the uncertainty surrounding the machine learning questions that we will finalize by the end of the next week.
+
+* Conduct preliminary research to understand how our proposed ML questions are related to some business/academic challenges that have been dealt with so far.
+
+![Retail Pricing and Clearance Sales](https://www.nber.org/papers/w1446 "Retail Pricing and Clearance Sales")
+
+
+#### To-Do-Lists:
+- Due to the tight schedule this week, we did not manage to obtain feedback from the TA regarding the proposed machine-learning questions, thus we plan to schedule a meeting between him and our whole team to discuss it thoroughly next week!
+- 
