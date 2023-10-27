@@ -90,7 +90,7 @@ The "trnsact" table is the most data-rich among the five tables in our dataset, 
 
 Furthermore, the low correlation values across most other variables indicate that there are no significant relationships among them. This finding has a valuable implication: it minimizes the risk of multicollinearity, a phenomenon that could adversely affect any potential regression analyses we may consider in the future. In essence, our data exploration has laid a solid foundation for subsequent analytical endeavors.
 
-* Conduct preliminary research to understand how our proposed ML questions are related to some business/academic challenges that have been dealt with so far. Below shows two pieces of literature that could be useful to rethink about our ML questions:
+* Conduct preliminary research to understand how our proposed ML questions are related to some business/academic challenges that have been dealt with so far. Below are two pieces of literature that could be useful to rethink about our ML questions:
 
 1. [Retail Pricing and Clearance Sales](https://www.nber.org/papers/w1446)
 2. [US aggregate demand for clothing and shoes: effects of non-durable expenditures, price and demographic changes](https://onlinelibrary.wiley.com/doi/full/10.1046/j.1470-6431.2003.00291.x)
