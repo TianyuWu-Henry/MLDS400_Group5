@@ -86,7 +86,7 @@ Furthermore, the possibility of merging skuinfo and deptinfo into a single dataf
 
 * Conduct preliminary research to understand how our proposed ML questions are related to some business/academic challenges that have been dealt with so far.
 
-![Retail Pricing and Clearance Sales](https://www.nber.org/papers/w1446 "Retail Pricing and Clearance Sales")
+![Retail Pricing and Clearance Sales](https://www.nber.org/papers/w1446)
 
 
 #### To-Do-Lists:
