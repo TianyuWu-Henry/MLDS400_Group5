@@ -66,7 +66,7 @@ Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
 
 ### Oct 27th, 2023:
 #### Updates:
-* Initiated the data cleaning process and data exploration: revealing key insights:
+* Initiated the data cleaning process and data exploration using Python: revealing key insights:
     + **deptinfo.csv and skstinfo.csv**
       
       Distribution of Stores: Texas, Florida, Arkansas, Arizona, and Ohio are the top five states with the highest number of stores. Texas and Florida are particularly significant, with a large number of stores. These states likely benefit from their high population and economic activity. The top cities with the most stores are Little Rock, Gilbert, Olathe, San Antonio, and Houston. These cities may be experiencing a concentration of retail activity, possibly due to high consumer demand, business opportunities, or strategic planning.
