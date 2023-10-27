@@ -85,7 +85,9 @@ At first glance, the columns within this CSV file may appear disorganized, lacki
 Furthermore, the possibility of merging skuinfo and deptinfo into a single dataframe based on the common SKU primary key is feasible. However, we've chosen to defer this decision due to the uncertainty surrounding the machine learning questions that we will finalize by the end of the next week.
 
 * Conduct preliminary research to understand how our proposed ML questions are related to some business/academic challenges that have been dealt with so far.
-[Retail Pricing and Clearance Sales](https://www.nber.org/papers/w1446)
+
+- [Retail Pricing and Clearance Sales](https://www.nber.org/papers/w1446)
+- [US aggregate demand for clothing and shoes: effects of non-durable expenditures, price and demographic changes](https://onlinelibrary.wiley.com/doi/full/10.1046/j.1470-6431.2003.00291.x)
 
 #### To-Do-Lists:
 - Due to the tight schedule this week, we did not manage to obtain feedback from the TA regarding the proposed machine-learning questions, thus we plan to schedule a meeting between him and our whole team to discuss it thoroughly next week!
