@@ -100,7 +100,7 @@ Furthermore, the low correlation values across most other variables indicate tha
 - Moving forward, we will speed up the EDA of the "trnsact" dataset. Subsequently, we will embark on the crucial task of feature engineering. This process will be driven by our refined machine-learning questions, which are now honed to address specific targets.
 
 
-### Oct 27th, 2023:
+### Nov 3rd, 2023:
 #### Updates:
 
 a. More EDA for **trnsact and strinfo**
