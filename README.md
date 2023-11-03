@@ -97,4 +97,12 @@ Furthermore, the low correlation values across most other variables indicate tha
 
 #### To-Do-Lists:
 - Given the demanding schedule this week, regrettably, we were unable to secure feedback from the Teaching Assistant (TA) regarding the proposed machine-learning questions. As a result, our plan is to coordinate a comprehensive meeting with the TA and our entire team next week. During this meeting, we aim to delve into the questions in detail, fostering a deeper understanding and alignment.
-- Moving forward, we will speed up the EDA of the "trnsact" dataset. Subsequently, we will embark on the crucial task of feature engineering. This process will be driven by our refined machine-learning questions, which are now honed to address specific targets. 
+- Moving forward, we will speed up the EDA of the "trnsact" dataset. Subsequently, we will embark on the crucial task of feature engineering. This process will be driven by our refined machine-learning questions, which are now honed to address specific targets.
+
+
+### Oct 27th, 2023:
+#### Updates:
+
+a. More EDA for **trnsact and strinfo**
+
+We've noticed an interesting trend in the sales data – there's a significant spike in sales every December, likely due to the holiday season, including Thanksgiving and holiday festivities. However, this increase is consistently followed by a decline in January. This pattern indicates that people tend to spend more during the holidays, and sales tend to drop once the holiday excitement subsides. When we looked at the top 10 states, we found that they all exhibit this same pattern of a sharp rise in December sales, followed by a dip in January. This common trend suggests that people in these states tend to splurge during the holidays, and sales slow down in the month that follows. Understanding these regional sales patterns and the influence of seasonal factors can help businesses fine-tune their strategies and inventory management to maximize sales during peak times and adapt during slower months.
