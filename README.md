@@ -124,15 +124,15 @@ We've noticed an interesting trend in the sales data – there's a significant s
 
   ***Leveraging historical sales data, can we identify the most promising locations for new store openings based on a holistic evaluation, encompassing city demographics and the performance of existing stores?***
 
-  Reasons are as follows:
+  The reasons are as follows:
   1. **Business Relevance**: Compared to the traditional directly-specified ML question, this question could directly address a practical and common business problem faced by DILLARDS, which could significantly impact the overall success and profitability of the business.
-  2. **Data Availability**: We will mainly rely on skstinfo, strinfo, and trnsact dataset to conduct analyses and therefore build predictive models by selecting relevant rows and trying to do some merges.
+  2. **Data Availability**: We will mainly rely on skstinfo, strinfo, and trnsact datasets to conduct analyses and therefore build predictive models by selecting relevant rows and trying to do some merges.
   3. **Applications of Class Knowledge**: This task involves predictive modeling, a key aspect of what we have learned over this quarter. By developing models (logistic regression) to predict the potential success of new store locations, we could showcase our ability to apply machine learning techniques to real-world business challenges.
-  4. **Measurable Success**: The success of the project can be measured in a tangible and business-oriented manner. Data in the project ranges from 2004 and 2005, and we aim to use those data to predict future opening. But since now we have been in the year of 2023, we could observe the new openings for sure by some public open data, for feasible and measurable validation. 
+  4. **Measurable Success**: The success of the project can be measured in a tangible and business-oriented manner. Data in the project ranges from 2004 to 2005, and we aim to use those data to predict future openings. But since now we have been in the year 2023, we could observe the new openings for sure by some public open data, for feasible and measurable validation. 
 
 * EDA for **merged data**
 
-We merged trnsact, deptinfo and strinfo into one dataframe, then we did data cleaning, including handling null values and duplicates. The 'SALEDATE' column was transformed into a datetime format, and additional date-related features were created. To prepare categorical variables for the machine learning model, label encoding was applied to 'CITY' and 'STATE,' as these columns contain location information. We employed one-hot encoding to the 'STYPE' column ensuring that the model can appropriately interpret and learn from this information.
+We merged trnsact, deptinfo, and strinfo into one data frame, and then we did data cleaning, including handling null values and duplicates. The 'SALEDATE' column was transformed into a DateTime format, and additional date-related features were created. To prepare categorical variables for the machine learning model, label encoding was applied to 'CITY' and 'STATE,' as these columns contain location information. We employed one-hot encoding to the 'STYPE' column ensuring that the model can appropriately interpret and learn from this information.
 
 After the preprocessing steps, visualizations were generated to gain insights into the dataset. Histograms and scatter plots were utilized to understand the distribution of retail prices and explore the relationship between cost and retail prices. The bar charts visualized average retail prices and total sales amounts by city and store, providing a clear representation of these key metrics. Additionally, a correlation plot was created to identify potential relationships between different variables.
 
@@ -150,6 +150,6 @@ For each store, we define a successful company as one that is above the 50th per
 This approach was applied to a subset of the data, our final table will likely have many more columns since we will be using the full data. 
 
 #### To-Do-Lists:
-- Develop pipeline to build out KPIs for all of the data (or as much as we possibly can...)
+- Develop a pipeline to build KPIs for all the cleaned data as much as possible
 - Train model, tune parameters, and cross-validate
-- Prepare presentation slides, ROI analysis, final report
+- Start to prepare presentation slides, ROI analysis, and final report
