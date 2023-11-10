@@ -136,8 +136,6 @@ We merged trnsact, deptinfo, and strinfo into one data frame, and then we did da
 
 After the preprocessing steps, visualizations were generated to gain insights into the dataset. Histograms and scatter plots were utilized to understand the distribution of retail prices and explore the relationship between cost and retail prices. The bar charts visualized average retail prices and total sales amounts by city and store, providing a clear representation of these key metrics. Additionally, a correlation plot was created to identify potential relationships between different variables.
 
-The final step involved feature importance analysis using a Random Forest Regressor. This technique helps in understanding the significance of each feature in predicting the target variable, 'TotalSalesAmount.' By analyzing feature importance, we can prioritize certain factors that play a more critical role in determining total sales amounts. These comprehensive preprocessing steps and visualizations contribute to the overarching goal of leveraging historical sales data to identify promising locations for new store openings.
-
 We also developed codes to calculate important KPIs given the data we have, namely:
 - Inventory Turnover
 - Gross Profit
