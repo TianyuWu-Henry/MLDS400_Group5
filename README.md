@@ -138,5 +138,18 @@ After the preprocessing steps, visualizations were generated to gain insights in
 
 The final step involved feature importance analysis using a Random Forest Regressor. This technique helps in understanding the significance of each feature in predicting the target variable, 'TotalSalesAmount.' By analyzing feature importance, we can prioritize certain factors that play a more critical role in determining total sales amounts. These comprehensive preprocessing steps and visualizations contribute to the overarching goal of leveraging historical sales data to identify promising locations for new store openings.
 
+We developed code to calculate important KPIs given the data we have, namely:
+- Inventory Turnover
+- Gross Profit
+- Return % by
+
+For each store. Using a threshold approach, we define a successful company as one that is above the 50th percentile in Inventory Turnover and Gross Profit while having a return percentage below 5%. Using these benchmarks, we can classify each store as successful or not and develop a logistic regression model to assist with our classification problem. 
+
+![image](https://github.com/TianyuWu-Henry/MLDS400_Group5/assets/49295640/90054de9-d33b-4b19-938b-5a36fff314c2)
+
+This approach was applied to a subset of the data, our final table will likely have many more columns since we will be using the full data. 
+
 #### To-Do-Lists:
-- 
+- Develop pipeline to build out KPIs for all of the data (or as much as we possibly can...)
+- Train model, tune parameters, and cross-validate
+- Prepare presentation slides, ROI analysis, final report
