@@ -122,13 +122,13 @@ We've noticed an interesting trend in the sales data – there's a significant s
 #### Updates:
 * After careful consideration and in response to evolving project insights, we have strategically opted to refine our focus for this project, that is, to change our ML question to:
 
-  *Leveraging historical sales data, can we identify the most promising locations for new store openings based on a holistic evaluation, encompassing city demographics and the performance of existing stores?*
+  ***Leveraging historical sales data, can we identify the most promising locations for new store openings based on a holistic evaluation, encompassing city demographics and the performance of existing stores?***
 
   Reasons are as follows:
   1. **Business Relevance**: Compared to the traditional directly-specified ML question, this question could directly address a practical and common business problem faced by DILLARDS, which could significantly impact the overall success and profitability of the business.
   2. **Data Availability**: We will mainly rely on skstinfo, strinfo, and trnsact dataset to conduct analyses and therefore build predictive models by selecting relevant rows and trying to do some merges.
   3. **Applications of Class Knowledge**: This task involves predictive modeling, a key aspect of what we have learned over this quarter. By developing models (logistic regression) to predict the potential success of new store locations, we could showcase our ability to apply machine learning techniques to real-world business challenges.
-  4. **Measurable Success**: The success of the project can be measured in a tangible and business-oriented manner. Data in the project ranges from 2004 and 2005, and we aim to use those data to predict future opening. But since now we have been in 2023, we could observe the new openings for sure by some public open data, for feasible and measurable validation. 
+  4. **Measurable Success**: The success of the project can be measured in a tangible and business-oriented manner. Data in the project ranges from 2004 and 2005, and we aim to use those data to predict future opening. But since now we have been in the year of 2023, we could observe the new openings for sure by some public open data, for feasible and measurable validation. 
 
 
 
