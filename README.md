@@ -120,9 +120,9 @@ We've noticed an interesting trend in the sales data – there's a significant s
 
 ### Nov 10th, 2023:
 #### Updates:
-* We decided to change our ML question for the final dashboard presentation to:
+* After careful consideration and in response to evolving project insights, we have strategically opted to refine our focus for this project, that is, to change our ML question to:
 
-  Leveraging historical sales data, can we identify the most promising locations for new store openings based on a holistic evaluation, encompassing city demographics and the performance of existing stores?
+  *Leveraging historical sales data, can we identify the most promising locations for new store openings based on a holistic evaluation, encompassing city demographics and the performance of existing stores?*
 
   Reasons are as follows:
   1. **Business Relevance**: Compared to the traditional directly-specified ML question, this question could directly address a practical and common business problem faced by DILLARDS, which could significantly impact the overall success and profitability of the business.
