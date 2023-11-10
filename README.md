@@ -130,7 +130,7 @@ We've noticed an interesting trend in the sales data – there's a significant s
   3. **Applications of Class Knowledge**: This task involves predictive modeling, a key aspect of what we have learned over this quarter. By developing models (logistic regression) to predict the potential success of new store locations, we could showcase our ability to apply machine learning techniques to real-world business challenges.
   4. **Measurable Success**: The success of the project can be measured in a tangible and business-oriented manner. Data in the project ranges from 2004 and 2005, and we aim to use those data to predict future opening. But since now we have been in the year of 2023, we could observe the new openings for sure by some public open data, for feasible and measurable validation. 
 
-EDA for **merged data**
+* EDA for **merged data**
 
 We merged trnsact, deptinfo and strinfo into one dataframe, then we did data cleaning, including handling null values and duplicates. The 'SALEDATE' column was transformed into a datetime format, and additional date-related features were created. To prepare categorical variables for the machine learning model, label encoding was applied to 'CITY' and 'STATE,' as these columns contain location information. We employed one-hot encoding to the 'STYPE' column ensuring that the model can appropriately interpret and learn from this information.
 
@@ -138,12 +138,12 @@ After the preprocessing steps, visualizations were generated to gain insights in
 
 The final step involved feature importance analysis using a Random Forest Regressor. This technique helps in understanding the significance of each feature in predicting the target variable, 'TotalSalesAmount.' By analyzing feature importance, we can prioritize certain factors that play a more critical role in determining total sales amounts. These comprehensive preprocessing steps and visualizations contribute to the overarching goal of leveraging historical sales data to identify promising locations for new store openings.
 
-We developed code to calculate important KPIs given the data we have, namely:
+We also developed codes to calculate important KPIs given the data we have, namely:
 - Inventory Turnover
 - Gross Profit
 - Return %
 
-For each store. Using a threshold approach, we define a successful company as one that is above the 50th percentile in Inventory Turnover and Gross Profit while having a return percentage below 5%. Using these benchmarks, we can classify each store as successful or not and develop a logistic regression model to assist with our classification problem. 
+For each store, we define a successful company as one that is above the 50th percentile in Inventory Turnover and Gross Profit while having a return percentage below 5% Using a threshold approach. Using these benchmarks, we can classify each store as successful or not and develop a logistic regression model to assist with our classification problem. 
 
 ![image](https://github.com/TianyuWu-Henry/MLDS400_Group5/assets/49295640/90054de9-d33b-4b19-938b-5a36fff314c2)
 
