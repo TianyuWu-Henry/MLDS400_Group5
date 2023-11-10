@@ -141,7 +141,7 @@ The final step involved feature importance analysis using a Random Forest Regres
 We developed code to calculate important KPIs given the data we have, namely:
 - Inventory Turnover
 - Gross Profit
-- Return % by
+- Return %
 
 For each store. Using a threshold approach, we define a successful company as one that is above the 50th percentile in Inventory Turnover and Gross Profit while having a return percentage below 5%. Using these benchmarks, we can classify each store as successful or not and develop a logistic regression model to assist with our classification problem. 
 
