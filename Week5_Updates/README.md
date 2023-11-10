@@ -25,7 +25,7 @@ For each store, we define a successful company as one that is above the 50th per
 
 ![image](https://github.com/TianyuWu-Henry/MLDS400_Group5/assets/49295640/90054de9-d33b-4b19-938b-5a36fff314c2)
 
-This approach was applied to a subset of the data, our final table will likely have many more columns since we will be using the full data. 
+This approach is now only applied to a subset of the sample data, our final dataframe ought to contain more samples (rows) in order to better train our predictive model.
 
 ## To-Do-Lists:
 - Develop a pipeline to build KPIs for all the cleaned data as much as possible
