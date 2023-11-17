@@ -155,6 +155,8 @@ This approach is now only applied to a subset of the sample data, our final data
 
 ### Nov 17th, 2023:
 #### Updates:
+* We started to create visualizations, conduct data enginnering, and evaluate models that we used to answer our proposed ML question: ***Leveraging historical sales data, can we identify the most promising locations for new store openings based on a holistic evaluation, encompassing city demographics and the performance of existing stores?***
+
 **Visualization**
 
 Draw visualizing and understanding the distribution of the predictor variable 'success' and exploring relationships between the selected features.
@@ -179,7 +181,10 @@ A logistic regression model is created using a pipeline that includes standardiz
 - Random Forest Classifier:
 A random forest classifier model is created using a pipeline with standardization and a random forest model. Hyperparameter tuning is performed and the tuned random forest model is evaluated on the original test set.
 
-
+#### To-Do-Lists:
+- Develop a pipeline to build KPIs for all the cleaned data as much as possible
+- Train model, tune parameters, and cross-validate
+- Start to prepare presentation slides, ROI analysis, and final report
 
 
 
