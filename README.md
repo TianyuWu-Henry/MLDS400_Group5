@@ -157,7 +157,8 @@ This approach is now only applied to a subset of the sample data, our final data
 #### Updates:
 **Visualization**
 
-- Draw visualizing and understanding the distribution of the predictor variable 'success' and exploring relationships between the selected features.
+Draw visualizing and understanding the distribution of the predictor variable 'success' and exploring relationships between the selected features.
+
 - Visualization 1: Distribution of Success - Displaying the distribution of the 'success' variable provides a clear visual representation of the count of each 'success' category (0 or 1).
 - Visualization 2: Correlation Matrix - Heatmap representing the correlation matrix of features to help identify patterns and relationships between different features.
 - Visualization 3: Pairplot for Selected Features - Focusing on features 'InventoryTurnover,' 'GrossProfit,' 'ReturnPercentage_y,' and 'success’ to understanding the distribution of individual features and potential patterns between 'success' categories. 
