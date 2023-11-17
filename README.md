@@ -156,12 +156,14 @@ This approach is now only applied to a subset of the sample data, our final data
 ### Nov 17th, 2023:
 #### Updates:
 **Visualization**
+
 Draw visualizing and understanding the distribution of the predictor variable 'success' and exploring relationships between the selected features.
 Visualization 1: Distribution of Success - Displaying the distribution of the 'success' variable provides a clear visual representation of the count of each 'success' category (0 or 1).
 Visualization 2: Correlation Matrix - Heatmap representing the correlation matrix of features to help identify patterns and relationships between different features.
 Visualization 3: Pairplot for Selected Features - Focusing on features 'InventoryTurnover,' 'GrossProfit,' 'ReturnPercentage_y,' and 'success’ to understanding the distribution of individual features and potential patterns between 'success' categories. 
 
 **Data Engineering**
+
 Create Interaction Feature:
 A new feature, 'Interaction1,' is created by multiplying the 'InventoryTurnover' and 'GrossProfit' columns.
 Handle Missing Data:
@@ -170,6 +172,7 @@ Standardize Numerical Features:
 The numerical features are standardized. Standardization transforms the features to have a mean of 0 and a standard deviation of 1, making them comparable and suitable for certain machine learning algorithms.
 
 **Model Evaluation**
+
 Since the data is imbalanced,  we used the SMOTE method to reduce the impact of class imbalance on model performance. 
 Logit Regression Model with Resampled Data: 
 Trained on the resampled data (balanced using SMOTE) and we generated the model’s summary with the statistical information displayed. The model is evaluated on the original test set, and accuracy, confusion matrix, and classification report are printed.
