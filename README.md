@@ -182,8 +182,6 @@ A logistic regression model is created using a pipeline that includes standardiz
 A random forest classifier model is created using a pipeline with standardization and a random forest model. Hyperparameter tuning is performed and the tuned random forest model is evaluated on the original test set.
 
 #### To-Do-Lists:
-- Develop a pipeline to build KPIs for all the cleaned data as much as possible
-- Train model, tune parameters, and cross-validate
 - Start to prepare presentation slides, ROI analysis, and final report
 
 
