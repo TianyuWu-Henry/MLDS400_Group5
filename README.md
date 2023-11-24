@@ -189,7 +189,11 @@ A random forest classifier model is created using a pipeline with standardizatio
 ### Nov 24th, 2023:
 #### Updates:
 - This week, our team delved into an in-depth discussion regarding the limitations of our model. We engaged in comprehensive brainstorming sessions to identify potential areas for improvement. Evaluating the current feature set, we're considering reselecting features to enhance the model's performance. Collaborative efforts have been fruitful in shedding light on aspects that could significantly impact the model's accuracy and robustness.
-- We initiated the creation of presentation slides intended to encapsulate our project's journey, methodology, and findings. This involved meticulous structuring to effectively communicate our approach and results. 
+- We enhanced our dataset by incorporating latitude and longitude as new features, providing valuable spatial context to our machine learning model. To visualize success rates, we created an interactive map using the folium library, effectively illustrating the geographical distribution of successful and unsuccessful stores.
+- Beyond our initial models, such as Logistic Regression, we explored K-Nearest Neighbors (KNN) and decision trees, visualizing the decision-making processes within the tree structures. Our model evaluation employed various metrics, including confusion matrices and classification reports, offering insights into the models' classification performance.
+- We also visualized decision regions using Principal Component Analysis (PCA) to understand how models classified different feature space regions.  
+- We initiated the creation of presentation slides intended to encapsulate our project's journey, methodology, and findings. This involved meticulous structuring to effectively communicate our approach and results.
+  
 
 #### To-Do-Lists:
 - We planned to conduct a detailed ROI (Return on Investment) analysis to showcase the tangible benefits and value derived from our model's implementation. This analysis will be pivotal in illustrating the project's potential impact and justifying its relevance.
