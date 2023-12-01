@@ -199,7 +199,7 @@ A random forest classifier model is created using a pipeline with standardizatio
 - We planned to conduct a detailed ROI (Return on Investment) analysis to showcase the tangible benefits and value derived from our model's implementation. This analysis will be pivotal in illustrating the project's potential impact and justifying its relevance.
 - In alignment with the presentation, we will start to compile the final report. This report will encapsulate the entire project lifecycle, encompassing methodologies, data sources, model development, and validation. Each team member is actively contributing to ensure the report reflects the depth of our work, outlining key insights, challenges faced, and recommendations for future enhancements.
 
-### Nov 24th, 2023:
+### Dec 1st, 2023:
 #### Updates:
 - This week marked significant strides in our project's culmination. We successfully wrapped up all essential elements and began the compilation of our final report. Collaborating closely, our team has diligently contributed to the content, seamlessly integrating various facets of our work. For easy access and seamless collaboration, the document is located [here](https://docs.google.com/document/d/1sO2yizNWc-F51eoD9gPide3BTS78NSWetNMMY3FJ-qk/edit?usp=sharing).
 
