@@ -7,4 +7,4 @@
 ## To-Do-Lists:
 - Our primary focus will remain on meticulously finalizing all elements. Ensuring the readiness of each component is paramount as we gear up for submission. This phase demands attention to detail and precision to guarantee a comprehensive and polished project outcome.
 
-- # As of Dec 7th, 2023:
+# As of Dec 7th, 2023:
