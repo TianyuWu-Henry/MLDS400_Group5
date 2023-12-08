@@ -1,5 +1,5 @@
 # MLDS400_Group5
-This is the repo for documenting Group 5's process of MLDS 400's team project.
+This is the repo for documenting Group 5's process of MLDS 400's team project. In this project, we are going to identify promising location(s) for Dillard’s next local store by leveraging sales data and consulting-backed estimation.
 
 Group Members: Xiyi Lin, Omar Shatrat, Fanqi Song, Tianyu Wu
 
