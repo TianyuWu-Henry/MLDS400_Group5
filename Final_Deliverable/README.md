@@ -1,1 +1,6 @@
-This folder includes all the final deliverables for this project.
+This folder includes all final deliverables for this project.
+
+- Deck of slides for a 15-minute presentation
+- Final report
+- ROI analysis
+- Scripts (Codes)
